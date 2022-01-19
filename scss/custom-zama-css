@@ -1,0 +1,4 @@
+html .background-container {
+background: red,
+clip-path: unset,
+}
