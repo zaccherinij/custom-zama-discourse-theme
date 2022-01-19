@@ -324,7 +324,7 @@ html body #main-outlet {
       margin-bottom: 0.5em;
       background-color: var(--secondary);
       border: 1px solid rgba(var(--primary-rgb), 0.2);
-      border-radius: 1em;
+      border-radius: 0;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
