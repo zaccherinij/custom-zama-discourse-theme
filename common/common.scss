@@ -18,7 +18,7 @@
   }
   .search-menu input[type="text"] {
     border: 1px solid transparent;
-    border-radius: 0.25em;
+    border-radius: 0px;
     min-height: 40px;
     &:focus {
       outline: 3px solid rgba(var(--primary-rgb), 0.35);
@@ -39,7 +39,7 @@
   }
   .results {
     top: 43px;
-    border-radius: 0.25em;
+    border-radius: 0px;
   }
   .search-context {
     top: 3.25em;
@@ -48,7 +48,7 @@
 }
 
 .search-input {
-  border-radius: 0.25em;
+  border-radius: 0px;
 }
 
 .display-search-banner {
@@ -94,7 +94,7 @@
 
 .discourse-tag {
   font-size: $font-down-1;
-  border-radius: 0.25em;
+  border-radius: 0px;
   padding: 0.15em 0.25em 0.15em 0.35em;
   background-color: var(--primary-low);
   color: var(--primary) !important;
