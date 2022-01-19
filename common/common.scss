@@ -72,22 +72,22 @@
 }
 
 .badge-wrapper.box {
-  border-radius: 0.25em;
+  border-radius: 0px;
   overflow: hidden;
 }
 
 .badge-wrapper.bullet {
   .badge-category-bg {
-    border-radius: 0.125em;
+    border-radius: 0px;
   }
   .badge-category-parent-bg {
-    border-top-left-radius: 0.125em;
-    border-bottom-left-radius: 0.125em;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     + .badge-category-bg {
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
-      border-top-right-radius: 0.125em;
-      border-bottom-right-radius: 0.125em;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
     }
   }
 }
