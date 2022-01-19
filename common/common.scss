@@ -509,7 +509,6 @@ html body #main-outlet {
   border-radius: 0.5em;
 }
 
-.background-container {
-background: #FFD101;
-clip-path: unset;
+a#search-button.icon {
+    display: none;
 }
